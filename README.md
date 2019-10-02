@@ -116,14 +116,20 @@ tournament_win_prob means probability of team reaching final round
 
 For 3rd,4th & 5th predictions we have first predicted total number of match played by every team (league match + playoff match) using above logistic regression model and final outcome was
 
-|  team_name         |   total_match_count |
-| :------------------|--------------------:|
-|  Bengaluru Bulls   |                  24 |
-|  Dabang Delhi K.C. |                  24 |
-|  Bengal Warriors   |                  24 |
-|  U Mumba           |                  23 |
-|  Haryana Steelers  |                  24 |
-|  U.P. Yoddha       |                  23 |
+|  team_name             |   total_match_count |
+| :----------------------|--------------------:|
+|  Dabang Delhi K.C.     |                  24 |
+|  Bengal Warriors       |                  24 |
+|  Bengaluru Bulls       |                  24 |
+|  Haryana Steelers      |                  24 |
+|  Patna Pirates         |                  22 |
+|  Telugu Titans         |                  22 |
+|  Puneri Paltan         |                  22 |
+|  U Mumba               |                  23 |
+|  Tamil Thalaivas       |                  22 |
+|  Jaipur Pink Panthers  |                  22 |
+|  U.P. Yoddha           |                  23 |
+|  Gujarat Fortunegiants |                  22 |
 
 
 and also we have calculated average number of successful raids , successful tackles and super-performance total per match and then multiplied both and total succesful raids points comes to
