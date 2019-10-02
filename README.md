@@ -120,16 +120,10 @@ For 3rd,4th & 5th predictions we have first predicted total number of match play
 | :------------------|--------------------:|
 |  Bengaluru Bulls   |                  24 |
 |  Dabang Delhi K.C. |                  24 |
-|  nan               |                  22 |
 |  Bengal Warriors   |                  24 |
 |  U Mumba           |                  23 |
-|  nan               |                  22 |
-|  nan               |                  22 |
-|  nan               |                  22 |
 |  Haryana Steelers  |                  24 |
-|  nan               |                  22 |
 |  U.P. Yoddha       |                  23 |
-|  nan               |                  22 |
 
 
 and also we have calculated average number of successful raids , successful tackles and super-performance total per match and then multiplied both and total succesful raids points comes to
