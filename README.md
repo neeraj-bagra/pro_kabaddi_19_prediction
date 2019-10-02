@@ -23,13 +23,13 @@ Mainly we have collected 3 types of data:
 3. Future match schedules
 
 ## Cleaning Data
-1. As the data is collected from authorized website of pro kabaddi league, no data is missing.
+As the data is collected from authorized website of pro kabaddi league, no data is missing.
 
 
 ## Data Preparation
 
-1. From matchwise team performance data we have derived averages of below points for every team & every series. 
-   We have used this data as features of a team in a given season:
+From matchwise team performance data we have derived averages of below points for every team & every series. 
+We have used this data as features of a team in a given season:
     - all_out
     - total_raid_points
     - total_tackle_points
@@ -81,6 +81,7 @@ else => loss by less than or equal to 7 points
 ## Predictions 
 
 **1. Predict the winner of the tournament**
+<br>
 **2. Predict the top team in the points table after the completion of the league matches**
 
 Considering above model we have predicted points earned by teams in all future league matches and points tables looks like this:
@@ -96,10 +97,10 @@ Logistic Regression, SVM,Decision Tree Classifier models performance was measure
 |          5 | U Mumba           |    11 |     2 |                      6 |                  3 |       67 |
 |         30 | U.P. Yoddha       |    11 |     2 |                      4 |                  5 |       65 |
 
-So after league match: 
-**Top team in the points table will be Dabang Delhi K.C **
-**First eliminator** match will be between **Bengaluru Bulls and U.P. Yoddha** 
-**Second eliminator** match will be between **Haryana Steelers and U Mumba** 
+So after league match: <br>
+**Top team in the points table will be Dabang Delhi K.C **<br>
+**First eliminator** match will be between **Bengaluru Bulls and U.P. Yoddha** <br>
+**Second eliminator** match will be between **Haryana Steelers and U Mumba** <br>
 
 
 We have predicted winning chance for each play off match with Logistic Regression Model and final result is: 
@@ -122,8 +123,8 @@ We have predicted winning chance for each play off match with Logistic Regressio
 **Bengal Warriors has highest chances (34% chances) of winning tournament.**
 
 
-**3. Predict the team with the highest points for successful raids**
-**4. Predict the team with the highest points for successful tackles**
+**3. Predict the team with the highest points for successful raids**<br>
+**4. Predict the team with the highest points for successful tackles**<br>
 **5. Predict the team with the highest super-performance total.**
 
 For 3rd, 4th & 5th predictions, we have first predicted total number of matches played by every team (league match + playoff match) using above logistic regression model and final outcome is:
@@ -208,7 +209,7 @@ Similarly, for successful tackles:
 So team with **highest super-performance total will be Jaipur Pink Panthers**
 
 
-**6. Predict the player with the highest SUCCESSFUL RAID percentage.**
+**6. Predict the player with the highest SUCCESSFUL RAID percentage.**<br>
 **7. Predict the player with the highest SUCCESSFUL TACKLE percentage**
 
 For successful raid and tackle percentage we have used playerwise data and by using group by function we got following results-
@@ -224,9 +225,9 @@ For successful raid and tackle percentage we have used playerwise data and by us
 **SUCCESSFUL TACKLE percentage**
 
 Similarly **Highest Succesful tackles percentage will be 100%** and below three players are with 100% tackles percentage:
-
-**1. Lalit chaudhary-from Gujarat Fortunegiants **
-**2. Mohit Balyan from U Mumba**
+<br>
+**1. Lalit chaudhary-from Gujarat Fortunegiants **<br>
+**2. Mohit Balyan from U Mumba**<br>
 **3. Ankush- from U.P. Yoddha**
 
 
