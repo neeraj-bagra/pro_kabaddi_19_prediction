@@ -24,12 +24,14 @@ Mainly we have collected 3 types of data
 ## Data Preparation
 1. from match wise team performance data we have derived average all_out,total_raid_points,total_tackle_points,successful_raids_ratio,unsuccessful_raids_ratio,successful_tackles_ratio for every team & every series. We have used these data as feature of a team in given season
 
+```
 team_agg_feature=df.groupby(['team_id','series_number']).agg({'all_out':nm.mean,
                                                             'total_raid_points':nm.mean,
                                                             'total_tackle_points':nm.mean,
                                                             'successful_raids_ratio':nm.mean,
                                                             'unsuccessful_raids_ratio':nm.mean,
                                                             'successful_tackles_ratio':nm.mean}).reset_index()
+```
 
 ## Model Building
 We have trained model with team feature collected(in Data Preparation step) as predicted variables(for self and opponent teams) to predict is_win(dependent variable)
