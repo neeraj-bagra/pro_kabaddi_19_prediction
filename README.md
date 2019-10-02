@@ -2,7 +2,7 @@
 Pro Kabaddi League 2019 Predictions
 
 
-## Predicts that i will made
+## Predictions that we will made
 1. Predict the winner of the tournament
 2. Predict the top team in the points table after the completion of the league matches
 3. Predict the team with the highest points for successful raids
@@ -214,3 +214,9 @@ Similarly **Highest Succesful tackles percentage will be 100% and there are thre
 2. Mohit Balyan from U Mumba
 3. Ankush- from U.P. Yoddha
 
+
+## Contributors
+1. Neeraj Bagra
+2. Aruna Sri Turlapati 
+3. Anurag Jain
+4. Rohith
