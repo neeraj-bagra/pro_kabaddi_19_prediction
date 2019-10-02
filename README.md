@@ -29,12 +29,12 @@ As the data is collected from authorized website of pro kabaddi league, no data 
 ## Data Preparation
 
 From matchwise team performance data we have derived averages of below points for every team & every series. 
-We have used this data as features of a team in a given season:
-    - all_out
-    - total_raid_points
-    - total_tackle_points
-    - successful_raids_ratio
-    - unsuccessful_raids_ratio
+We have used this data as features of a team in a given season:<br>
+    - all_out<br>
+    - total_raid_points<br>
+    - total_tackle_points<br>
+    - successful_raids_ratio<br>
+    - unsuccessful_raids_ratio<br>
     - successful_tackles_ratio
 
 ```
@@ -98,7 +98,7 @@ Logistic Regression, SVM,Decision Tree Classifier models performance was measure
 |         30 | U.P. Yoddha       |    11 |     2 |                      4 |                  5 |       65 |
 
 So after league match: <br>
-**Top team in the points table will be Dabang Delhi K.C **<br>
+**Top team** in the points table will be **Dabang Delhi K.C**<br>
 **First eliminator** match will be between **Bengaluru Bulls and U.P. Yoddha** <br>
 **Second eliminator** match will be between **Haryana Steelers and U Mumba** <br>
 
@@ -226,7 +226,7 @@ For successful raid and tackle percentage we have used playerwise data and by us
 
 Similarly **Highest Succesful tackles percentage will be 100%** and below three players are with 100% tackles percentage:
 <br>
-**1. Lalit chaudhary-from Gujarat Fortunegiants **<br>
+**1. Lalit chaudhary-from Gujarat Fortunegiants**<br>
 **2. Mohit Balyan from U Mumba**<br>
 **3. Ankush- from U.P. Yoddha**
 
