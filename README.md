@@ -64,8 +64,8 @@ else -> loss less than or equal to 7 points
 
 
 ## Predictions 
-#### 1. Predict the winner of the tournament
-#### 2. Predict the top team in the points table after the completion of the league matches
+#### ***1. Predict the winner of the tournament
+2. Predict the top team in the points table after the completion of the league matches***
 
 with above model we have predicted points earned by teams in all future league match and points tables looks like
 
