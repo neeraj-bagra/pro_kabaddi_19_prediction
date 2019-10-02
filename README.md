@@ -38,12 +38,14 @@ For this we have tried various models like Logistic Regression,SVM,Decision Tree
 
 For feature selection we have manually dropped features one by one to make all features significant(with p_values<0.05) and independent to each other (with VIF <3). our final model have following features.
 
-                             feature  p_values   VIF  coefficient
-3  opponent_successful_tackles_ratio     0.001  1.09    -0.072010
-1           successful_tackles_ratio     0.000  1.08     0.116165
-2         opponent_total_raid_points     0.000  1.08    -0.089019
-0                  total_raid_points     0.000  1.07     0.073446
-3                              const     0.000   NaN     0.435101
+|  feature                           |   p_values |    VIF |   coefficient |
+| :----------------------------------|-----------:|-------:|--------------:|
+|  opponent_successful_tackles_ratio |      0.001 |   1.09 |    -0.0720104 |
+|  successful_tackles_ratio          |      0     |   1.08 |     0.116165  |
+|  opponent_total_raid_points        |      0     |   1.08 |    -0.0890186 |
+|  total_raid_points                 |      0     |   1.07 |     0.0734461 |
+|  const                             |      0     | nan    |     0.435101  |
+
 
 successful_tackles_ratio is the most deciding feature for any team following opponent_total_raid_points, total_raid_points, opponent_successful_tackles_ratio with coefficients (0.116,-0.089,0.073,-0.072) respectively
 
