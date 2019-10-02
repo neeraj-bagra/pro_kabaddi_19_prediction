@@ -106,9 +106,10 @@ tournament_win_prob means probability of team reaching final round
 
 **Bengal Warriors has highest chances (34% chances) of winning tournament.**
 
-### 3. Predict the team with the highest points for successful raids
-### 4. Predict the team with the highest points for successful tackles
-### 5. Predict the team with the highest super-performance total.
+
+**3. Predict the team with the highest points for successful raids**
+**4. Predict the team with the highest points for successful tackles**
+**5. Predict the team with the highest super-performance total.**
 
 For 3rd,4th & 5th predictions we have first predicted total number of match played by every team (league match + playoff match) using above logistic regression model and final outcome was
 
