@@ -108,8 +108,11 @@ tournament_win_prob means probability of team reaching final round
 
 
 **3. Predict the team with the highest points for successful raids**
+<br>
 **4. Predict the team with the highest points for successful tackles**
+<br>
 **5. Predict the team with the highest super-performance total.**
+<br>
 
 For 3rd,4th & 5th predictions we have first predicted total number of match played by every team (league match + playoff match) using above logistic regression model and final outcome was
 
@@ -190,8 +193,9 @@ similarly for successful tackles
 
 So team with **highest super-performance total will be Jaipur Pink Panthers**
 
-### 6. Predict the player with the highest SUCCESSFUL RAID percentage.
-### 7. Predict the player with the highest SUCCESSFUL TACKLE percentage
+**6. Predict the player with the highest SUCCESSFUL RAID percentage.**
+<br>
+**7. Predict the player with the highest SUCCESSFUL TACKLE percentage**
 
 For successful raid and tackle percentage we have used player wise data and using group by function we have get following results-
 
