@@ -192,6 +192,7 @@ So team with **highest super-performance total will be Jaipur Pink Panthers**
 For successful raid and tackle percentage we have used player wise data and using group by function we have get following results-
 
 **SUCCESSFUL RAID percentage**
+
 |    player_id |   percentage_success_raid | player_name   | team_name        |   series_number |
 | ------------:|--------------------------:|:--------------|:-----------------|----------------:|
 |         2514 |                       100 | Chand Singh   | Haryana Steelers |               7 |
